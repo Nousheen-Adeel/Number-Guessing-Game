@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 let guessAnswer = Math.floor(Math.random() * 10 + 1);
