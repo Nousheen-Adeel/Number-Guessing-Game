@@ -6,7 +6,7 @@ let guessnumber = await inquirer.prompt([
         type: "number",
         name: "yourguess",
         message: "Enter your guess number between 1 & 10: ",
-    }
+    },
 ]);
 if (guessnumber.yourguess === guessAnswer) {
     console.log(chalk.bgGreenBright("Congratulation!!!****** You guess the right number******"));
