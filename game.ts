@@ -15,7 +15,7 @@ let guessnumber = await inquirer.prompt([
 
 if (guessnumber.yourguess === guessAnswer) {
   console.log(
-    chalk.bgGreenBright(
+    chalk.bgGreen(
       "Congratulation!!!****** You guess the right number******"
     )
   );

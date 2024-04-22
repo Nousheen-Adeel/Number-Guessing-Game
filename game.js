@@ -10,7 +10,7 @@ let guessnumber = await inquirer.prompt([
     },
 ]);
 if (guessnumber.yourguess === guessAnswer) {
-    console.log(chalk.bgGreenBright("Congratulation!!!****** You guess the right number******"));
+    console.log(chalk.bgGreen("Congratulation!!!****** You guess the right number******"));
 }
 else if (guessnumber.yourguess > 10) {
     console.log(chalk.yellowBright("Kindly enter number between 1 to 10"));
